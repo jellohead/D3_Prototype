@@ -4,7 +4,11 @@
   //
   // Requires jQuery.
 
+  /*var w = 500;
+  var h = 300;*/
   var padding = 20;
+
+
   var dataset = [
                 [ 5,     20 ],
                 [ 480,   90 ],
@@ -16,8 +20,11 @@
                 [ 25,    67 ],
                 [ 85,    21 ],
                 [ 220,   88 ],
-                [ 600,   150]
-  ];
+                [ 600,   150],
+                [ 900, 225],
+            ];
+
+
 
   var svg = d3.select(".scatterplot") // rename to match HTML element tied to
               .append("svg")
@@ -74,3 +81,12 @@
      .attr("font-family", "sans-serif")
      .attr("font-size", "11px")
      .attr("fill", "red");
+
+  var xAxis = d3.svg.axis()
+                .scale(xScale)
+                .orient("bottom");
+
+  svg.append("g")
+     .attr("class", "axis")
+     .attr("transform", "translate(0," + (h - 35) + ")")
+     .call(xAxis);

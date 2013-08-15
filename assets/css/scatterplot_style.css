@@ -1,0 +1,53 @@
+.axis path,
+
+.axis line{
+  fill: none;  // 'fill' is a D3 attribute, not CSS
+  stroke: black;
+  shape-rendering: crispEdges; // D3 attribute, not CSS
+}
+
+.axis text{
+  font-family: sans-serif;
+  font-size: 11px;
+}
+
+.graph-container{
+  padding-bottom: 20px;
+}
+
+/*margin-conventions.html styling*/
+body {
+  font: 10px sans-serif;
+}
+
+.axis line,
+.axis path {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+.arrow {
+  stroke: #000;
+  stroke-width: 1.5px;
+}
+
+.outer,
+.inner {
+  shape-rendering: crispEdges;
+}
+
+.outer {
+  fill: none;
+  stroke: #000;
+}
+
+.inner {
+  fill: #ccc;
+  stroke: #000;
+  stroke-dasharray: 3, 4;
+}
+
+/*.graph-container {
+  padding:10px;
+}*/

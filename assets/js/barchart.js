@@ -4,13 +4,13 @@ var numDataPoints = 6;
 var xRange = Math.random() * 1000;
 var dataset = [5, 13, 15, 20, 25, 30, 21, 75];
 
-var svg = d3.selectAll(".my-class")
+var svg = d3.selectAll(".barchart")
 .append("svg")
 .attr("width", "100%") // express width and height as % to fit responsive container
 .attr("height", "50%");
 
-var w = $(".my-class").width(); //jQuery call to use CSS selector 'width'
-var h = $(".my-class").height();
+var w = $(".barchart").width(); //jQuery call to use CSS selector 'width'
+var h = $(".barchart").height();
 
 
 

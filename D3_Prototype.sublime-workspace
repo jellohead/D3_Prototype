@@ -1,0 +1,827 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"s",
+				"script	Tag"
+			],
+			[
+				"of",
+				"offset	.offset"
+			],
+			[
+				"te",
+				"text"
+			],
+			[
+				"tran",
+				"translate"
+			],
+			[
+				"x",
+				"xScale"
+			],
+			[
+				"se",
+				"select"
+			],
+			[
+				"sort",
+				"sortOrder"
+			],
+			[
+				"add",
+				"addBar"
+			],
+			[
+				"lab",
+				"labels"
+			],
+			[
+				"re",
+				"return"
+			],
+			[
+				"ma",
+				"maxValue"
+			],
+			[
+				"new",
+				"newNumber"
+			],
+			[
+				"max",
+				"maxValue"
+			],
+			[
+				"pa",
+				"paragraphID"
+			],
+			[
+				"rang",
+				"rangeBand"
+			],
+			[
+				"sel",
+				"selectAll"
+			],
+			[
+				"y",
+				"yScale"
+			],
+			[
+				"newN",
+				"newNumber2"
+			],
+			[
+				"line",
+				"linear"
+			],
+			[
+				"n",
+				"newNumber2"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"cir",
+				"circle"
+			],
+			[
+				"m",
+				"max"
+			],
+			[
+				"d",
+				"d3"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"sele",
+				"selectAll"
+			],
+			[
+				"bar",
+				"barPadding"
+			],
+			[
+				"fu",
+				"function"
+			],
+			[
+				"circl",
+				"circles"
+			],
+			[
+				"c",
+				"circle"
+			],
+			[
+				"w",
+				"w"
+			],
+			[
+				"he",
+				"height"
+			],
+			[
+				"marg",
+				"margin-right"
+			],
+			[
+				"data",
+				"dataset"
+			],
+			[
+				"bod",
+				"background-color"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"inline",
+				"inline-block"
+			],
+			[
+				"sty",
+				"style"
+			],
+			[
+				"num",
+				"num1"
+			],
+			[
+				"bo",
+				"both"
+			],
+			[
+				"be",
+				"begin"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 3338,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "assets/js/scatterplot.js",
+			"settings":
+			{
+				"buffer_size": 2233,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "Packages/User/View in Chrome.sublime-build",
+	"command_palette":
+	{
+		"height": 107.0,
+		"selected_items":
+		[
+			[
+				"Git: Gui",
+				"Git: Gui"
+			],
+			[
+				"git",
+				"Git: Gui"
+			],
+			[
+				"git: gu",
+				"Git: Gui"
+			],
+			[
+				"file",
+				"File: Copy Path From Project"
+			],
+			[
+				"dif",
+				"Git: Open Modified Files"
+			],
+			[
+				"",
+				"HTML: Wrap Selection With Tag"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Package Control: Remove Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"pac",
+				"Package Control: Install Package"
+			],
+			[
+				"intall",
+				"Package Control: Install Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"install package",
+				"Package Control: Install Package"
+			],
+			[
+				"pak",
+				"Package Control: Install Package"
+			],
+			[
+				"pakc",
+				"Package Control: Install Package"
+			],
+			[
+				"pa",
+				"Package Control: List Packages"
+			],
+			[
+				"package",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 530.0
+	},
+	"console":
+	{
+		"height": 139.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/jello/Projects/Coding/D3/D3_template/index.html",
+		"/Users/jello/Projects/Coding/D3/D3_template/assets/js/scatterplot.js",
+		"/Users/jello/Projects/Coding/Web Sites/Dashboard Projects/D3_Prototype/assets/js/d3BarChart.js",
+		"/Users/jello/Projects/Coding/Web Sites/Dashboard Projects/D3_Prototype/assets/js/scatterplot.js",
+		"/Users/jello/Projects/Coding/Dashboard Projects/Dashboard Framework/assets/js/d3.js",
+		"/Users/jello/Projects/Coding/Dashboard Projects/D3_Prototype/style.css",
+		"/Users/jello/Projects/Coding/Dashboard Projects/D3_Prototype/index.html",
+		"/Users/jello/Projects/Coding/Dashboard Projects/D3_Prototype/assets/js/scatterplot.js",
+		"/Users/jello/Projects/Coding/Dashboard Projects/D3_Prototype/assets/js/d3BarChart.js",
+		"/Users/jello/Projects/Coding/Web/HTML/main.css",
+		"/Users/jello/Projects/Coding/D3/d3project/28_adding_and_removing.html",
+		"/Users/jello/Projects/Coding/D3/d3project/d3.sublime-workspace",
+		"/Users/jello/Projects/Coding/D3/d3project/index.html",
+		"/Users/jello/Projects/Coding/D3/d3project/us-states.json",
+		"/Users/jello/Projects/Coding/Web/HTML/index.html",
+		"/Users/jello/Library/Application Support/Sublime Text 2/Packages/User/View in Chrome.sublime-build",
+		"/Users/jello/Library/Application Support/Sublime Text 2/Packages/User/Refresh Chrome.sublime-build",
+		"/Users/jello/Projects/Coding/Web/D3/d3project/index.html",
+		"/Users/jello/Library/Application Support/Sublime Text 2/Packages/User/Refresh Firefox (localhost).sublime-build",
+		"/Users/jello/Library/Application Support/Sublime Text 2/Packages/User/RefreshFirefoxTab.scpt",
+		"/Users/jello/Projects/Coding/Web/D3/d3project/28_adding_and_removing.html",
+		"/Users/jello/Documents/D3 Example Code/d3-book/chapter_10/01_start.html",
+		"/Users/jello/Library/Application Support/Sublime Text 2/Packages/GitGutter/README.md",
+		"/Users/jello/Library/Application Support/Sublime Text 2/Packages/GitGutter/GitGutter.sublime-settings",
+		"/Users/jello/Library/Application Support/Sublime Text 2/Packages/User/GitGutter.sublime-settings",
+		"/Users/jello/Library/Application Support/Sublime Text 2/Packages/Git/Git.sublime-settings",
+		"/Users/jello/Library/Application Support/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/Users/jello/Library/Application Support/Sublime Text 2/Packages/User/Default (OSX).sublime-keymap",
+		"/Users/jello/Documents/D3 Example Code/d3-book/chapter_09/25_adding_values.html",
+		"/Users/jello/Projects/Coding/Web/D3/d3project/.git/COMMIT_EDITMSG",
+		"/Users/jello/Library/Application Support/Sublime Text 2/Packages/Default/Default (OSX).sublime-keymap",
+		"/Users/jello/Projects/Coding/Web/D3/d3project/d3.js",
+		"/Users/jello/Projects/Coding/Web/D3/d3project/d3.sublime-project",
+		"/Users/jello/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Users/jello/Library/Application Support/Sublime Text 2/Packages/User/View In Browser.sublime-settings",
+		"/Users/jello/Library/Application Support/Sublime Text 2/Packages/View In Browser/View In Browser.sublime-settings",
+		"/Users/jello/Library/Application Support/Sublime Text 2/Packages/BracketHighlighter/bh_core.sublime-settings",
+		"/Users/jello/Projects/Web Sites/basic practice/both.js",
+		"/Users/jello/Projects/Software Libraries/Dad_Stuff/assets/js/both.js",
+		"/Users/jello/Projects/Software Libraries/Website Template/index.html",
+		"/Users/jello/Projects/Coding/Web/Javascript/sayHi.js",
+		"/Users/jello/Projects/Coding/Web/Javascript/assets/js/bootstrap.js",
+		"/Users/jello/Projects/Coding/Web/Javascript/index.html",
+		"/Users/jello/.zshrc",
+		"/Users/jello/Desktop/Mac Mini Login.txt",
+		"/Users/jello/Projects/Software Libraries/Javascript/mbostock-d3-84f4a62/README.md",
+		"/Users/jello/sweet_dashboard_project/README.md",
+		"/Users/jello/.rvm/README",
+		"/Users/jello/scripts/readme.txt",
+		"/Users/jello/Library/Application Support/Sublime Text 2/Packages/Browser Refresh/Default (OSX).sublime-keymap",
+		"/Users/jello/Projects/Coding/Web/HTML/testing.html",
+		"/Users/jello/Projects/Web Sites/Ebay/HTML/Juicy Couture Beach Survival Kit",
+		"/Users/jello/Projects/Web Sites/3D Printing Site/Posts/3D Printing",
+		"/Users/jello/Projects/Coding/php/temp.txt",
+		"/Users/jello/Projects/Coding/php/hello.php",
+		"/Library/WebServer/Documents/hello.php",
+		"/Users/jello/Desktop/George_Heineman___Algorithms_in_a_Nutshell_2008___059651624X.txt",
+		"/Users/jello/Desktop/George_Heineman___Algorithms_in_a_Nutshell_2008___059651624X.rtf",
+		"/Users/jello/Downloads/ruby-1.9.3-p0/doc/pty/README",
+		"/Users/jello/Downloads/ruby-1.9.3-p0/doc/rubygems/README",
+		"/Users/jello/Downloads/ruby-1.9.3-p0/doc/NEWS-1.9.2",
+		"/Library/WebServer/Documents/form.html",
+		"/Library/WebServer/Documents/phpinfo.php",
+		"/Users/jello/.profile",
+		"/private/etc/apache2/other/phpMyAdmin.conf",
+		"/Library/WebServer/Documents/pma/config.inc.php",
+		"/Users/jello/Desktop/untitled.c",
+		"/Users/jello/Projects/Coding/Ruby/New/practice/db/migrate/20120917002830_create_posts.rb",
+		"/Library/WebServer/Documents/pma/config.inc.php.backup",
+		"/usr/local/phpMyAdmin/config.inc.php",
+		"/private/etc/apache2/other/phpMy"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"graph-container",
+			"graph",
+			"my",
+			"TODO",
+			"todo",
+			"remove",
+			"yScale",
+			"yScale(d)",
+			"dataset",
+			"exit",
+			"tab",
+			"on",
+			"red",
+			"black",
+			"indent",
+			"tab",
+			"bars",
+			"xRange",
+			"browser",
+			"|",
+			"shift+r",
+			"lcd.print(",
+			"arduino",
+			"localIP",
+			"cc",
+			".cc",
+			"cc",
+			"php"
+		],
+		"highlight": false,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			","
+		],
+		"reverse": true,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": false
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index.html",
+					"settings":
+					{
+						"buffer_size": 3338,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3315,
+								3315
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110.0
+							],
+							"gjslint_options":
+							[
+							],
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"sublimelinter": true,
+							"sublimelinter_delay": 2.0,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": true,
+							"sublimelinter_gutter_marks_theme": "simple",
+							"sublimelinter_mark_style": "none",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": true,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "assets/js/scatterplot.js",
+					"settings":
+					{
+						"buffer_size": 2233,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								811,
+								811
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110.0
+							],
+							"gjslint_options":
+							[
+							],
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"sublimelinter": true,
+							"sublimelinter_delay": 2.0,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": true,
+							"sublimelinter_gutter_marks_theme": "simple",
+							"sublimelinter_mark_style": "none",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": true,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 541.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 34.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 27.0
+	},
+	"output.git":
+	{
+		"height": 112.0
+	},
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 207.0,
+	"status_bar_visible": true
+}
