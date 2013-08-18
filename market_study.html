@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Market Study</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <!-- Le styles -->
+  <link href="./assets/css/bootstrap-responsive.css" rel="stylesheet">
+  <link href="./assets/css/bootstrap.css" rel="stylesheet">
+  <link rel="stylesheet" href="./assets/css/market_study.css">
+  <!-- Fav and touch icons -->
+  <link rel="shortcut icon" href="./assets/ico/favicon.png">
+</head>
+
+<body>
+  <svg id="visualization" width="800" height="600"></svg>
+
+  <form id="controls">
+    <div class="span4">
+      <h2>X Axis</h2>
+      <ul id="x-axis">
+        <li><label><input checked="checked" type="radio" name="x-axis" value="opened">Location Role Supports</label></li>
+        <li><label><input type="radio" name="x-axis" value="opened">Primary Role</label></li>
+        <li><label><input type="radio" name="x-axis" value="opened">Primary Role (other)</label></li>
+        <li><label><input type="radio" name="x-axis" value="opened">Time with Company</label></li>
+        <li><label><input type="radio" name="x-axis" value="opened">Supervise >= 1</label></li>
+        <li><label><input type="radio" name="x-axis" value="opened">Supervise supervisors</label></li>
+        <li><label><input type="radio" name="x-axis" value="opened">Location</label></li>
+        <li><label><input type="radio" name="x-axis" value="opened">Location (other)</label></li>
+      </ul>
+    </div>
+    <div class="span4">
+      <h2>Y Axis</h2>
+      <ul id="y-axes">
+        <li><label><input checked="checked" type="radio" name="y-axis" value="opened">Location Role Supports</label></li>
+        <li><label><input type="radio" name="y-axis" value="opened">Primary Role</label></li>
+                <li><label><input type="radio" name="y-axis" value="opened">Primary Role (other)</label></li>
+                <li><label><input type="radio" name="y-axis" value="opened">Time with Company</label></li>
+                <li><label><input type="radio" name="y-axis" value="opened">Supervise >= 1</label></li>
+                <li><label><input type="radio" name="y-axis" value="opened">Supervise supervisors</label></li>
+                <li><label><input type="radio" name="y-axis" value="opened">Location</label></li>
+                <li><label><input type="radio" name="y-axis" value="opened">Location (other)</label></li>
+      </ul>
+    </div>
+    <div class="span4">
+      <h2>Radius</h2>
+      <ul id="radius">
+        <li><label><input checked="checked" type="radio" name="radius" value="opened">Location Role Supports</label></li>
+        <li><label><input type="radio" name="radius" value="opened">Primary Role</label></li>
+                <li><label><input type="radio" name="radius" value="opened">Primary Role (other)</label></li>
+                <li><label><input type="radio" name="radius" value="opened">Time with Company</label></li>
+                <li><label><input type="radio" name="radius" value="opened">Supervise >= 1</label></li>
+                <li><label><input type="radio" name="radius" value="opened">Supervise supervisors</label></li>
+                <li><label><input type="radio" name="radius" value="opened">Location</label></li>
+                <li><label><input type="radio" name="radius" value="opened">Location (other)</label></li>
+      </ul>
+    </div>
+  </form>
+</body>
+
+    <!-- Javascript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="./assets/js/jquery-1.10.2.min.js"></script>
+    <script src="./assets/js/d3.min.js"></script>
+    <script src="./assets/js/bootstrap.min.js"></script>
+    <script src="./assets/js/market_study.js"></script>
+
+  </body>
+  </html>

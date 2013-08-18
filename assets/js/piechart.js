@@ -1,6 +1,6 @@
 //Width and height
-      var w = 300;
-      var h = 300;
+      /*var w = 300;
+      var h = 300;*/
 
       var dataset = [ 5, 10, 20, 45, 6, 25 ];
 
@@ -20,6 +20,9 @@
             .append("svg")
             .attr("width", "100%")
             .attr("height", "50%");
+
+      var w = $(".piechart").width();
+      var h = $(".piechart").height();
 
       //Set up groups
       var arcs = svg.selectAll("g.arc")
