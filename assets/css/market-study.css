@@ -1,0 +1,81 @@
+body
+{
+  background-color: #333;
+  font-family: sans-serif;
+  color: #fff;
+  font-size: 10px;
+}
+.coastertype-5
+{
+  fill: #4C4A12;
+  color: #4C4A12;
+}
+.coastertype-2
+{
+  fill: #989415;
+  color: #989415;
+}
+.coastertype-3
+{
+  fill: #1E4559;
+  color: #1E4559;
+}
+.coastertype-4
+{
+  fill: #7F7274;
+  color: #7F7274;
+}
+.coastertype-1
+{
+  fill: #981C30;
+  color: #981C30;
+}
+.coastertype-6
+{
+  fill: #fff;
+  color: #fff;
+}
+.coastertype-7
+{
+  fill: #4B0612;
+  color: #4B0612;
+}
+.coastertype-8
+{
+  fill: #1EAAE4;
+  color: #1EAAE4;
+}
+.coastertype-9
+{
+  fill: #AD5E71;
+  color: #AD5E71;
+}
+.coastertype-10
+{
+  fill: #000;
+  color: #000;
+}
+ul
+{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+div
+{
+  float: left;
+  width: 200px;
+
+}
+.axis text
+{
+  fill: #fff;
+}
+.axis .domain
+{
+  opacity: 0;
+}
+.tick
+{
+  stroke: #fff;
+}

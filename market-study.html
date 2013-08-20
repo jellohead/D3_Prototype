@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Market Study</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <!-- Le styles -->
+  <link href="./assets/css/bootstrap-responsive.css" rel="stylesheet">
+  <link href="./assets/css/bootstrap.css" rel="stylesheet">
+  <link rel="stylesheet" href="./assets/css/market-study.css">
+  <!-- Fav and touch icons -->
+  <link rel="shortcut icon" href="./assets/ico/favicon.png">
+</head>
+
+<body>
+  <svg id="visualization" width="800" height="600"></svg>
+
+  <form id="controls">
+    <div class="span4">
+      <h2>X Axis</h2>
+      <ul id="x-axis">
+        <li><label><input checked="checked" type="radio" name="x-axis" value="opened">Location Role Supports</label></li>
+        <li><label><input type="radio" name="x-axis" value="opened">Primary Role</label></li>
+        <li><label><input type="radio" name="x-axis" value="opened">Primary Role (other)</label></li>
+        <li><label><input type="radio" name="x-axis" value="opened">Time with Company</label></li>
+        <li><label><input type="radio" name="x-axis" value="opened">Supervise >= 1</label></li>
+        <li><label><input type="radio" name="x-axis" value="opened">Supervise supervisors</label></li>
+        <li><label><input type="radio" name="x-axis" value="opened">Location</label></li>
+        <li><label><input type="radio" name="x-axis" value="opened">Location (other)</label></li>
+      </ul>
+    </div>
+    <div class="span4">
+      <h2>Y Axis</h2>
+      <ul id="y-axis">
+        <li><label><input type="radio" name="y-axis" value="opened">Location Role Supports</label></li>
+        <li><label><input checked="checked" type="radio" name="y-axis" value="opened">Primary Role</label></li>
+        <li><label><input type="radio" name="y-axis" value="opened">Primary Role (other)</label></li>
+        <li><label><input type="radio" name="y-axis" value="opened">Time with Company</label></li>
+        <li><label><input type="radio" name="y-axis" value="opened">Supervise >= 1</label></li>
+        <li><label><input type="radio" name="y-axis" value="opened">Supervise supervisors</label></li>
+        <li><label><input type="radio" name="y-axis" value="opened">Location</label></li>
+        <li><label><input type="radio" name="y-axis" value="opened">Location (other)</label></li>
+      </ul>
+    </div>
+    <div class="span4">
+      <h2>Radius</h2>
+      <ul id="radius">
+        <li><label><input type="radio" name="radius" value="opened">Location Role Supports</label></li>
+        <li><label><input type="radio" name="radius" value="opened">Primary Role</label></li>
+        <li><label><input type="radio" name="radius" value="opened">Primary Role (other)</label></li>
+        <li><label><input checked="checked" type="radio" name="radius" value="opened">Time with Company</label></li>
+        <li><label><input type="radio" name="radius" value="opened">Supervise >= 1</label></li>
+        <li><label><input type="radio" name="radius" value="opened">Supervise supervisors</label></li>
+        <li><label><input type="radio" name="radius" value="opened">Location</label></li>
+        <li><label><input type="radio" name="radius" value="opened">Location (other)</label></li>
+      </ul>
+    </div>
+    <div>
+      <h2>Types of coaster</h2>
+      <ul id="coaster-types">
+        <li><label><input type="checkbox" checked="checked" value="floorless">Floorless</label></li>
+        <li><label><input type="checkbox" checked="checked" value="inverted">Inverted</label></li>
+        <li><label><input type="checkbox" checked="checked" value="flying">Flying</label></li>
+        <li><label><input type="checkbox" checked="checked" value="sit-down">Sit down</label></li>
+        <li><label><input type="checkbox" checked="checked" value="mega">Mega</label></li>
+        <li><label><input type="checkbox" checked="checked" value="stand-up">Stand up</label></li>
+        <li><label><input type="checkbox" checked="checked" value="dive-machine">Dive machine</label></li>
+        <li><label><input type="checkbox" checked="checked" value="wing-rider">Wing rider</label></li>
+      </ul>
+    </div>
+
+    <!-- copied directly from datavis-final.html -->
+    <!-- Menu to choose which dataset to use -->
+    <div>
+      <h2>Dataset Drop Down</h2>
+      <ul>
+        <li>
+          <select id="datasetDropDown">
+            <option value="market-study3">Market Study 3</option>
+            <option selected="selected" value="market-study2">Market Study 2</option>
+            <!-- <option value="gerstlauer">Gerstlauer</option>
+            <option value="intamin">Intamin AG</option>
+            <option value="maurer-sohne">Maurer Sohne</option>
+            <option value="morgan">Morgan</option>
+            <option value="schwarzkopf">Schwarzkopf</option>
+            <option value="vekoma">Vekoma</option>
+            <option value="market-study">Market Study</option> -->
+          </select>
+        </li>
+        <li><label><input type="checkbox" id="cull-dirty"> Cull dirty data</label></li>
+      </ul>
+    </div>
+  </form>
+</body>
+
+    <!-- Javascript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="./assets/js/jquery-1.10.2.js"></script>
+    <script src="./assets/js/d3.js"></script>
+    <script src="./assets/js/bootstrap.js"></script>
+    <script src="./assets/js/market-study2.js"></script>
+
+  </body>
+  </html>
