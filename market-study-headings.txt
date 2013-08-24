@@ -1,0 +1,60 @@
+RespondentID
+Support Region
+Current Role
+Current Role Other
+Time with company
+Supervisor
+Supervise supervisors
+Location
+Location (Other)
+
+Customer service
+Technological innovation
+Market Leadership
+Reliability
+Performance
+Quality
+Global presence
+Reputation
+Experience in industry
+Expertise of people
+Breadth and scale of offerings
+Speed in delivery
+Competitive pricing
+Other Q7.
+Other
+
+What do you believe is the PRIMARY attribute that differentiates Exterran or makes us better than other companies in the industry?
+
+Have you spoken with an Exterran customer or potential customer in the past 6 months?
+
+Please tell us how strongly you agree or disagree with the following statement: I have the tools I need to talk about Exterran's advantages with customers and potential customers.
+
+Talking points/messages
+Print advertising
+Video (mobile)
+PowerPoint Slides
+Product brochures
+Technical literature
+Other
+
+Reasons 1 Code
+Reason 1 Translated
+Reason 1 Code 1
+Reason 1 Code 2
+Reason 2
+Reason 2 Translated
+Reason 2 Code 1
+Reason 2 Code 2
+Reason 3
+Reason 3 Translated
+Reason 3 Code 1 Reason 3 Code 2
+
+In your experience, What do customers most frequently tell you is the main reason that they choose Exterran over other providers?
+Otherpleasespecify_B
+
+In your opinion, If a customer does not choose Exterran, what is the main reason they are likely to choose another provider?
+Q14 Translated
+Q14 Code 1
+Q14 Code 2
+Q14 Code 3

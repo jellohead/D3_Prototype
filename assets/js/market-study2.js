@@ -21,7 +21,8 @@ var WIDTH = 800, // width of the graph
   drawingData, // data with the coasters we don't want to display (dirty or it's "type" is unchecked)
   xAxis = d3.svg.axis().scale(xRange).tickSize(16).tickSubdivide(true), // x axis function
   yAxis = d3.svg.axis().scale(yRange).tickSize(10).orient("right").tickSubdivide(true), // y axis function
-  vis; // visualisation selection
+  vis,
+  dataToDraw; // visualisation selection
 
 // runs once when the visualisation loads
 function init () {
@@ -45,7 +46,7 @@ function init () {
 // this redraws the graph based on the data in the drawingData variable
 function redraw () {
   var surveyResponse = vis.selectAll ("circle")
-    .data(drawingData, function (d) {
+    .data(dataToDraw, function (d) {
        return d.id;
     }), // select the data points and set their data
     axes = getAxes (); // object containing the axes we'd like to use (duration, inversions, etc.)
@@ -178,6 +179,9 @@ function plottableTypes () {
 
 // take a raw datasetDropDown and remove coasters which shouldn't be displayed
 // (i.e. if it is "dirty" or it's type isn't selected)
+
+// Take rawData and generate object containing items we want to plot
+// Save dataset as dataToDraw
 function processData (data) {
   //var processed = [],
     /*cullDirty = document.getElementById("cull-dirty").checked,*/
@@ -225,29 +229,42 @@ function cullUnwantedTypes (coasters) {
 
 // called every time a form field has changed
 function update () {
-  var datasetDropDown = getChosenDataset(), // filename of the chosen datasetDropDown csv
-    processedData; // the data which will be visualised
+  console.log("Entering update function");
+  d3.csv("data/market-study3.csv",function (error, data){
+    if(error){
+      console.log(error);
+      console.log("Didn't load csv file correctly.");
+    } else {
+      rawData = data;
+      console.log("CSV loaded successfully.");
+      console.log(rawData[98]);
+      console.log("Exiting update function.");
+      redraw();
+    }
+  });
+  //var datasetDropDown = getChosenDataset(), // filename of the chosen datasetDropDown csv
+   // processedData; // the data which will be visualised
   // if the datasetDropDown has changed from last time, load the new data file
-  if (datasetDropDown != currentDataset) {
-    d3.csv("data/" + datasetDropDown + ".csv", function (data) {
+  /*if (datasetDropDown != currentDataset) {
+    d3.csv("data/market-study2.csv", function (data) {
       // process new data and store it in the appropriate variables
       rawData = data;
-      processedData = processData(data);
+      //processedData = processData(data);
       currentDataset = datasetDropDown;
       generateTypesList(processedData);
       drawingData = processedData;//cullUnwantedTypes(processedData);
       redraw();
     });
-  } else {
+  } else {*/
     // process data based on the form fields and store it in the appropriate variables
-    processedData = datasetDropDown;
-    drawingData = processedData;//cullUnwantedTypes(processedData);
-    redraw();
-  }
+    //processedData = datasetDropDown;
+    //drawingData = processedData;//cullUnwantedTypes(processedData);
+    /*console.log("Exiting update function.");
+    redraw();*/
+  //}
 }
 
 // listen to the form fields changing
-document.getElementById("cull-dirty").addEventListener ("change", update, false); //("event", function to call, wantsUntrusted)
-document.getElementById("datasetDropDown").addEventListener ("change", update, false);
-document.getElementById("controls").addEventListener ("click", update, false);
-document.getElementById("controls").addEventListener ("keyup", update, false);
+//document.getElementById("cull-dirty").addEventListener ("change", update, false); //("event", function to call, wantsUntrusted)
+//document.getElementById("datasetDropDown").addEventListener ("change", update, false);
+//document.getElementById("controls").addEventListener ("keyup", update, false);
